@@ -50,8 +50,19 @@
                 </nav>
                 <section class="block-forms">
                 <form class="form1">
-                    <div>
-                        <select class="option1" name="cars">
+                    <div class="wrapper-head">
+                        <h5 class="form1-disc">Диски:</h5>
+                        <h4 class="search-auto">Поиск по автомобилю</h4>
+                        <h5 class="form1-tire">Шины:</h5>
+                    </div>
+                        <div>
+                            <p class="disc-info">Марка авто:</p>
+                            <p class="disc-info">Модель <span class="form1-text-item">автомобиля:</span></p>
+                            <p class="disc-info">Год выпуска <span class="form1-text-item">автомобиля:</span></p>
+                            <p class="disc-info">Комплектация:</p>
+                        </div>
+                    <div class="form1-left-box">
+                            <select class="option1" name="cars">
                             <option value="tire">Volvo</option>
                             <option value="tire">Honda</option>
                         </select>
@@ -68,7 +79,15 @@
                             <option value="tire">Dodge</option>
                         </select>
                     </div>
-                    <div>
+                        <div>
+                            <p class="tire-info">Марка авто:</p>
+                            <p class="tire-info">Модель <span class="form1-text-item">автомобиля:</span></p>
+                            
+                            <p class="tire-info">Год выпуска <span class="form1-text-item">автомобиля:</span></p>
+                            
+                            <p class="tire-info">Комплектация:</p>
+                        </div>
+                    <div class="form1-right-box">
                         <select class="option4" name="cars">
                             <option value="tire">Renoult</option>
                             <option value="tire">Renoult</option>
@@ -89,30 +108,42 @@
                     <input type="submit" name="submit" value="поиск...">
                 </form>
                 <form class="form2">
-                    <select name="cars">
+                    <div class="wrapper-head">
+                        <h4 class="search-tire">поиск шин</h4>
+                    </div>
+                    <div class="form2-size-tire">
+                        <span>Размер: </span>
+                        <select class="size-tire" name="cars">
+                            <option value="tire"></option>
+                            <option value="tire"></option>
+                        </select>
+                        <span> / </span>
+                        <select class="size-tire" name="cars">
+                            <option value="tire"></option>
+                            <option value="tire"></option>
+                        </select>
+                    </div>
+                    <select class="size-tire-R" name="cars">
                         <option value="tire"></option>
                         <option value="tire"></option>
                     </select>
-                    <select name="cars">
-                        <option value="tire"></option>
-                        <option value="tire"></option>
-                    </select>
-                    <select name="cars">
-                        <option value="tire"></option>
-                        <option value="tire"></option>
-                    </select>
-                    <label>
-                        <input type="checkbox" name="summer"> лето
-                    </label>
-                    <label>
-                        <input type="checkbox" name="winter"> зима
-                    </label>
-                    <label>
-                        <input type="checkbox" name="all_seasons"> всесез
-                    </label>
+                    <div class="form2-checkbox">
+                        <label>
+                            <input type="checkbox" name="summer"> лето
+                        </label>
+                        <label>
+                            <input type="checkbox" name="winter"> зима
+                        </label>
+                        <label>
+                            <input type="checkbox" name="all_seasons"> всесез
+                        </label>
+                    </div>
                         <input type="submit" name="submit" value="поиск...">
                 </form>
                 <form class="form3">
+                     <div class="wrapper-head">
+                        <h4 class="search-disks">поиск дисков</h4>
+                    </div>
                     <select name="cars">
                         <option value="tire">tire</option>
                         <option value="tire">tire</option>
